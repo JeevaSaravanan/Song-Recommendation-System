@@ -4,7 +4,7 @@ This project is an end-to-end pipeline that fetches song data from the Genius AP
 
 ## Table of Contents
 
-- - [Architecture](#architecture)
+- [Architecture](#architecture)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
