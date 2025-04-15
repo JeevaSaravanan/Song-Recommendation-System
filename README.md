@@ -5,6 +5,7 @@ This project is an end-to-end pipeline that fetches song data from the Genius AP
 ## Table of Contents
 
 - [Architecture](#architecture)
+- [Application](#application)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
@@ -15,6 +16,9 @@ This project is an end-to-end pipeline that fetches song data from the Genius AP
 ## Architecture 
 ![](/assets/images/architecture.png)
 
+## Application
+![](/assets/images/app.png)
+![](/assets/images/app1.png)
 
 ## Features
 
@@ -43,6 +47,7 @@ This project is an end-to-end pipeline that fetches song data from the Genius AP
 │   └── Dockerfile                       # Dockerfile for Airflow image with dependencies
 ├── fastapi
 │   ├── app.py                           # FastAPI application serving recommendations
+|   ├── st_test.py                       # Streamlit Application
 │   └── Dockerfile                       # Dockerfile for FastAPI service
 └── docker-compose.yaml                  # Compose file to orchestrate Airflow, FastAPI, Postgres, and Redis
 ```
